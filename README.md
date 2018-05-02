@@ -1,3 +1,3 @@
 # hellomay
  
-Putting text to trigger jenkins pipeline.
+Putting sample text to trigger jenkins pipeline.
