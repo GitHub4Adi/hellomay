@@ -1,5 +1,6 @@
 node {
-   stage('Preparation') { // for display purposes
+   stage('Preparation') {
+      echo 'Preparation Stage'
       git clone 'https://github.com/GitHub4Adi/hellomay.git'
    }
    stage('Build') {
