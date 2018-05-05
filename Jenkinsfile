@@ -5,6 +5,9 @@ node {
    stage('Build') {
       echo 'Build stage'
    }
+   stage('Unit tests') {
+      echo 'Unit tests stage'
+   }
    stage('Deploy') {
       echo 'Deploy stage'
    }
