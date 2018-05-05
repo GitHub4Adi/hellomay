@@ -1,14 +1,14 @@
 node {
    stage('Preparation') {
-      echo 'Preparation Stage'
+      echo 'Preparation stage'
    }
    stage('Build') {
-      echo 'Build Stage'
+      echo 'Build stage'
    }
    stage('Integration tests') {
-      echo 'Test Stage'
+      echo 'Integration tests stage'
    }
    stage('Push Artifacts') {
-      echo 'Push Artifacts Stage'
+      echo 'Push artifacts stage'
    }
 }
